@@ -22,3 +22,15 @@
 
 - Windows 10/11 (64비트)
 - 첫 실행 시에만 인터넷 연결 필요
+
+## 개발자용 — 소스에서 실행·빌드
+
+```bash
+pip install -r requirements.txt
+python nukki_gui.py            # 소스로 바로 실행
+
+pip install pyinstaller
+pyinstaller NUKKIKKI.spec      # dist/NUKKIKKI.exe 생성
+```
+
+- `_make_icon.py`: 앱 아이콘(`nukkikki.ico`, `nukkikki.png`) 생성 스크립트

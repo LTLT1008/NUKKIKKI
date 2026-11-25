@@ -1,0 +1,17 @@
+# 빌드 결과물
+build/
+dist/
+*.exe
+
+# 파이썬
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# 테스트용 이미지
+input/
+output/
+
+# 로컬 설정
+.claude/
